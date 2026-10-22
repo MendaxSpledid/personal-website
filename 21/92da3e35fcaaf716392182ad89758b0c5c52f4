@@ -1,0 +1,57 @@
+components.json
+  s_de8f49f7a9b779::t_04368e42fdae88 1-25
+.prettierrc
+  s_de8f49f7a9b779::t_04368e42fdae88 1-11
+pnpm-workspace.yaml
+  s_de8f49f7a9b779::t_04368e42fdae88 1-6
+lib/utils.ts
+  s_de8f49f7a9b779::t_04368e42fdae88 1
+README.md
+  s_de8f49f7a9b779::t_04368e42fdae88 1-21
+AGENTS.md
+  s_de8f49f7a9b779::t_04368e42fdae88 1-9
+app/layout.tsx
+  s_de8f49f7a9b779::t_04368e42fdae88 1-32
+tsconfig.json
+  s_de8f49f7a9b779::t_04368e42fdae88 1-34
+components/theme-provider.tsx
+  s_de8f49f7a9b779::t_04368e42fdae88 1-71
+eslint.config.mjs
+  s_de8f49f7a9b779::t_04368e42fdae88 1-18
+next.config.ts
+  s_de8f49f7a9b779::t_04368e42fdae88 1-5
+CLAUDE.md
+  s_de8f49f7a9b779::t_04368e42fdae88 1
+app/globals.css
+  s_de8f49f7a9b779::t_04368e42fdae88 1-132
+components/ui/button.tsx
+  s_de8f49f7a9b779::t_04368e42fdae88 1-55
+app/page.tsx
+  s_de8f49f7a9b779::t_04368e42fdae88 1-19
+.prettierignore
+  s_de8f49f7a9b779::t_04368e42fdae88 1-7
+package.json
+  s_de8f49f7a9b779::t_04368e42fdae88 1-39
+postcss.config.mjs
+  s_de8f49f7a9b779::t_04368e42fdae88 1-7
+.gitignore
+  s_de8f49f7a9b779::t_04368e42fdae88 1-39
+pnpm-lock.yaml
+  s_de8f49f7a9b779::t_90008c0409b851 1-6129
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2192da3e35fcaaf716392182ad89758b0c5c52f4",
+  "prompts": {},
+  "sessions": {
+    "s_de8f49f7a9b779": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e9c46f914ffeacFv4qpnhluiDS",
+        "model": "GLM-5.3-Flash"
+      },
+      "human_author": "feng.liu4 <feng.liu4@nio.com>"
+    }
+  }
+}
