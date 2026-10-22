@@ -1,17 +1,29 @@
-import { Geist, Geist_Mono, Outfit, Oxanium } from "next/font/google"
+import type { Metadata } from "next"
+import { Cormorant_Garamond, Inter } from "next/font/google"
+
+import { ThemeProvider } from "@/components/theme-provider"
+import { site } from "@/lib/site"
+import { cn } from "@/lib/utils"
 
 import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
-import { cn } from "@/lib/utils";
 
-const oxaniumHeading = Oxanium({subsets:['latin'],variable:'--font-heading'});
-
-const outfit = Outfit({subsets:['latin'],variable:'--font-sans'})
-
-const fontMono = Geist_Mono({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-sans",
 })
+
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+  style: ["normal", "italic"],
+  variable: "--font-heading",
+})
+
+export const metadata: Metadata = {
+  title: `${site.name} — ${site.role}`,
+  description:
+    "Portraits, interiors, and quiet landscapes. Selected work, pricing, and contact.",
+}
 
 export default function RootLayout({
   children,
@@ -22,7 +34,12 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontMono.variable, "font-sans", outfit.variable, oxaniumHeading.variable)}
+      className={cn(
+        "antialiased",
+        "font-sans",
+        inter.variable,
+        cormorant.variable
+      )}
     >
       <body>
         <ThemeProvider>{children}</ThemeProvider>
