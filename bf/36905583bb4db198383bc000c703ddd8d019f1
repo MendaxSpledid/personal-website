@@ -1,0 +1,48 @@
+app/layout.tsx
+  s_de8f49f7a9b779::t_82abe98f174d36 1-2,5-6,8,10-13,15,17-19,22-26
+  s_de8f49f7a9b779::t_2d13866dbebd83 37-42
+  s_de8f49f7a9b779::t_70ebf8bba5916e 27
+README.md
+  s_de8f49f7a9b779::t_8b5803e6c8735b 33-35,37-39,43-44
+  s_de8f49f7a9b779::t_98d51a5286f87f 1,3-7,9,12-13,16-31,41,45-63
+  s_de8f49f7a9b779::t_097d79bb0409a2 32
+lib/site.ts
+  s_de8f49f7a9b779::t_73ae5517085564 44,53,62,71,80,89,98,107
+  s_de8f49f7a9b779::t_cc97cdea456828 1-25,32,34-43,45-52,54-61,63-70,72-79,81-88,90-97,99-106,108-139
+  s_de8f49f7a9b779::t_e0296360f4e81c 26-31,33
+components/site/site-footer.tsx
+  s_de8f49f7a9b779::t_2d13866dbebd83 11-14
+  s_de8f49f7a9b779::t_a82c14bb5a710c 1-10,15-29
+app/globals.css
+  s_de8f49f7a9b779::t_75c8de24c49076 8-21,23-39,43-56,58-73
+  s_de8f49f7a9b779::t_565689ec76f3b4 119-125,139-148
+app/page.tsx
+  s_de8f49f7a9b779::t_94fe9db92d1c7d 1-6,10-15,17-21
+components/site/pricing.tsx
+  s_de8f49f7a9b779::t_6ec6cb38337646 1-4,9-45
+  s_de8f49f7a9b779::t_2d13866dbebd83 5-8
+components/site/site-header.tsx
+  s_de8f49f7a9b779::t_f4468ac8ff0aba 1-33
+components/site/work-gallery.tsx
+  s_de8f49f7a9b779::t_2ead553c6da748 1-35
+components/site/contact.tsx
+  s_de8f49f7a9b779::t_dd95cf390f925a 1-28
+components/site/hero.tsx
+  s_de8f49f7a9b779::t_fe237310ef66ba 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bf36905583bb4db198383bc000c703ddd8d019f1",
+  "prompts": {},
+  "sessions": {
+    "s_de8f49f7a9b779": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e9c46f914ffeacFv4qpnhluiDS",
+        "model": "GLM-5.3-Flash"
+      },
+      "human_author": "feng.liu4 <feng.liu4@nio.com>"
+    }
+  }
+}
