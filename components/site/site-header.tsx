@@ -1,4 +1,5 @@
 import { site } from "@/lib/site"
+import { ThemeToggle } from "@/components/site/theme-toggle"
 
 const navItems = [
   { href: "#work", label: "Work" },
@@ -16,17 +17,20 @@ export function SiteHeader() {
         >
           {site.name}
         </a>
-        <nav aria-label="Main" className="flex items-center gap-6 sm:gap-10">
-          {navItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="text-label transition-colors hover:text-foreground"
-            >
-              {item.label}
-            </a>
-          ))}
-        </nav>
+        <div className="flex items-center gap-6 sm:gap-8">
+          <nav aria-label="Main" className="flex items-center gap-6 sm:gap-10">
+            {navItems.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="text-label transition-colors hover:text-foreground"
+              >
+                {item.label}
+              </a>
+            ))}
+          </nav>
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   )

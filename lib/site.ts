@@ -4,6 +4,9 @@ export const site = {
   role: "Photographer",
   location: "Copenhagen, Denmark",
   email: "hello@example.com",
+  // Used as the page description for search engines and link previews.
+  description:
+    "Portraits, interiors, and quiet landscapes. Selected work, pricing, and contact.",
 }
 
 export const intro = {
@@ -135,5 +138,4 @@ export const pricing = [
   },
 ]
 
-export const pricingNote =
-  "Travel within Denmark is included; further destinations are quoted individually. Every engagement begins with a short conversation — write a few lines about what you have in mind and I'll come back within two days."
+export const pricingNote = `Travel within ${site.location} is included; further destinations are quoted individually. Every engagement begins with a short conversation — write a few lines about what you have in mind and I'll come back within two days.`
