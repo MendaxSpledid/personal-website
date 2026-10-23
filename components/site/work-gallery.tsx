@@ -6,7 +6,7 @@ export function WorkGallery() {
   return (
     <section id="work" className="scroll-mt-24 py-24 sm:py-32">
       <div className="flex items-baseline justify-between">
-        <p className="text-label">Selected work</p>
+        <h2 className="text-label">Selected work</h2>
         <p className="text-xs text-muted-foreground">
           {String(workPhotos.length).padStart(2, "0")} photographs
         </p>

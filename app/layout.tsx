@@ -21,8 +21,7 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: `${site.name} — ${site.role}`,
-  description:
-    "Portraits, interiors, and quiet landscapes. Selected work, pricing, and contact.",
+  description: site.description,
 }
 
 export default function RootLayout({
