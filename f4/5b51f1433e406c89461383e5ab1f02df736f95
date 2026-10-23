@@ -1,0 +1,37 @@
+app/layout.tsx
+  s_5c72456d132e2e::t_dd65154737dc35 24
+components/site/site-footer.tsx
+  s_5c72456d132e2e::t_e11e0d57c14697 1-2
+  s_5c72456d132e2e::t_9b58eab6e0985b 14
+lib/site.ts
+  s_5c72456d132e2e::t_3627213441309e 141
+  s_5c72456d132e2e::t_163a71ff7f428c 7-9
+components/site/work-gallery.tsx
+  s_5c72456d132e2e::t_d729ac93d04392 9
+components/site/theme-toggle.tsx
+  s_5c72456d132e2e::t_47938a232d38cd 1-56,61-65
+  s_5c72456d132e2e::t_c915b922d0a12d 57-60
+components/site/site-header.tsx
+  s_5c72456d132e2e::t_841126dda8a117 2
+  s_5c72456d132e2e::t_d82b260d28a023 20-33
+README.md
+  s_5c72456d132e2e::t_adaee496b088cf 49,51-52,55-56,59-65
+  s_5c72456d132e2e::t_085457aa57d77f 6-7
+  s_5c72456d132e2e::t_110f92445f6f9d 30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f45b51f1433e406c89461383e5ab1f02df736f95",
+  "prompts": {},
+  "sessions": {
+    "s_5c72456d132e2e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e9c2e6ebdffejtkqWyyhd2BEH6",
+        "model": "GLM-5.3-Flash"
+      },
+      "human_author": "feng.liu4 <feng.liu4@nio.com>"
+    }
+  }
+}
