@@ -3,8 +3,8 @@
 A one-page portfolio site for a photographer, built with Next.js (App Router),
 Tailwind CSS v4, and shadcn/ui. The design is intentionally restrained: a warm
 near-monochrome palette, generous whitespace, square corners, a serif display
-face (Cormorant Garamond) over a quiet sans (Inter). Press `d` to toggle dark
-mode.
+face (Cormorant Garamond) over a quiet sans (Inter). Dark mode has a toggle in
+the header (or press `d`).
 
 ## Getting started
 
@@ -27,6 +27,7 @@ Other scripts: `pnpm build`, `pnpm lint`, `pnpm typecheck`.
 | `components/site/pricing.tsx`     | Pricing table (placed between work and contact)  |
 | `components/site/contact.tsx`     | Email contact section                            |
 | `components/site/site-footer.tsx` | Footer                                           |
+| `components/site/theme-toggle.tsx`| Dark mode toggle (header)                        |
 
 ## Replacing placeholder content
 
@@ -45,17 +46,23 @@ To replace one:
 - Update `alt` with a real description of the photograph.
 - Update `title` and `year` — these render as the caption.
 
-Also replace the following text placeholders (all in `lib/site.ts` or
-`app/layout.tsx` metadata):
+Also replace the following text placeholders (all in `lib/site.ts`):
 
-- `site.name` — "Mara Voss" is a stand-in, used in the header, intro, and
-  footer.
+- `site.name` — "Mara Voss" is a stand-in, used in the header, intro,
+  metadata title, and footer.
 - `site.email` — `hello@example.com`, used by the two `mailto:` links
   (hero and contact section).
+- `site.description` — the page description for search engines and link
+  previews, wired into `app/layout.tsx` metadata.
 - `intro.label`, `intro.headline`, `intro.body` — the introduction copy.
 - `pricing` and `pricingNote` — the three offerings and their starting
-  prices.
-- `site.location` — shown in the contact section.
+  prices. The note derives "Travel within …" from `site.location`, so
+  updating the location keeps it consistent.
+- `site.location` — shown in the contact section and used in the pricing
+  note.
+
+The tab icon (`app/favicon.ico`) is a generated placeholder mark — replace
+it with your own if you have one.
 
 ## Adding shadcn components
 
